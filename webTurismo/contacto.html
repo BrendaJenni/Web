@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Turismo Social Estrella</title>
+    <link rel="short cut icon" href="Icono TSE/favicon-16x16.png" type="image/x_icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <script src="validacion.js"></script>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+        <nav>
+            <ul id="botones">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="destinos.html">Destinos</a></li>
+                <li><a href="contacto.html">Contáctenos</a></li>
+            </ul>
+        </nav>
+        <div class="encabezado1"><h1>Turismo Social Estrella</h1></div>
+        </div>
+    </header>
+ 
+    <form action="" id="validacionjs">
+        <h2>Contáctenos</h2>
+        <p id="pform">Para obtener información sobre las promociones y los precios no dude en contactarnos. Por favor, complete los siguientes campos.</p>
+        <input type="text" name="nombre" id="nombre" autocomplete="off" placeholder="Nombre" required maxlength="20" minlength="3">
+        <input type="email" name="email" id="email" autocomplete="off" placeholder="Correo" required maxlength="50" minlength="10">        
+        <input type="text" name="telefono" id="telefono" autocomplete="off" placeholder="Teléfono" required maxlength="12" minlength="10">
+        <textarea name="texto" placeholder="Escriba su consulta" maxlength="500"></textarea>
+        <input type="submit" value="Enviar" id="enviar">
+    </form>
+    
+    <footer>
+        <nav class="redes">
+            <a class="iconos" href="https://www.facebook.com/turismosocialestrella" target= "_blank"><img src="fotos/facebook-brands.svg" alt="" width="30" height="30"></a>
+            <a class="iconos" href="https://www.instagram.com/estre.turismo/" target="_blank"><img src="fotos/instagram-brands.svg" alt="" width="30" height="30"></a>
+        </nav>
+        <p>Derechos reservados @2018</p>
+    </footer>
+    
+</body>
+</html>
